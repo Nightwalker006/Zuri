@@ -1,0 +1,125 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: auto;
+    height: 15vh;
+    background-color: #c0c0c0;
+}
+.nav-sec{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav{
+    display: flex;
+}
+.nav-sec nav ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    margin-right: 55px;
+}
+.nav-sec nav ul li{
+    padding: 10px 30px;
+}
+.nav-sec nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.login{
+    padding: 10px 30px;
+}
+.login a{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #000f4d;
+    border-radius: 20px;
+}
+main{
+    padding: 50px 20px;
+    background-color: #c0c0c0;
+    justify-content: center;
+}
+.cnt1{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 30px;
+}
+.cnt1 img{
+    width: 100%;
+    box-shadow: 8px 8px 20px #000;
+}
+.cnt1 p{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 30px;
+    text-align: left;
+}
+.abtme{
+    padding: 50px 0;
+    margin: auto;
+    margin-left: 75px;
+}
+.abtme h1{
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    border-top: 2px solid #000f4d;
+    border-bottom: 2px solid #000f4d;
+    text-align: center;
+    
+}
+.cnt2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+}
+.cnt2 h1{
+    border-top: 2px solid #000f4d;
+    border-bottom: 2px solid #000f4d;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.cnt2 ol{
+    padding: 1em;
+}
+.cnt2 ol li{
+    padding: 5px;
+    font-weight: bold;
+}
+.cnt2 ul{
+    padding: 1em;
+}
+.cnt2 ul li{
+    padding: 5px;
+    font-weight: bold;
+}
+footer{
+    background-color: #000f4d;
+    height: 10vh;
+    padding: 35px;
+}
+.contactme{
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+.contactme h3{
+    padding: 15px;
+    background-color: #000f4d;
+    border-radius: 24px;
+}
+.contactme h3 a{
+    color: #fff;
+}

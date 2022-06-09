@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register.css">
+    <title>Register</title>
+</head>
+<body style="background-color: #c0c0c0;">
+    <header>
+        <div class="nav-sec">
+            <h1 style="color: #fff; margin-left: 50px;">About<span style="color: #000;">Me</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#"> <b>Home</b> </a></li>
+                    <li><a href="#"><b>Contact</b></a></li>
+                    <li><a href="#" style="color: #000f4d;"><b>Register</b></a></li>
+                </ul>
+                <div class="login"><a href="#"><b>Login</b></a></div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <h1 style="color: #000;">Registration Form</h1>
+        </div>
+       <div class="container">
+           <form action="post">
+                <label for="firstname"><b>First Name</b></label>
+                <input style="margin-right: 30px;" type="text" name="firstname" placeholder="Firstname" autocomplete="off" maxlength="20" required>
+                <label for="lastname"><b>Last Name</b></label>
+                <input type="text" name="lastname" placeholder="Lastname" autocomplete="off" required><br/>
+                <label for="telephone"><b>Telephone</b></label>
+                <input style="margin-right: 30px;" type="number" name="telephone" id="" placeholder="+234" min="0" max="15" required>
+                <label for="gender"><b>Gender</b></label>
+                <select name="gender" value="Gender" id="">
+                    <option value="select">-select-</option>
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                </select><br/>
+                <label for="country"><b>Country</b></label>
+                <input style="margin-right: 30px;" type="text" name="country" required>
+                <label for="state/province"><b>State\Province</b></label>
+                <input type="text" name="state/province" id="" required><br/>
+                <label for="email"><b>E-mail</b></label>
+                <input type="email" name="email" id="" placeholder="example@gmail.com"  autocomplete="off" required><br/>
+                <label for="password"><b>Password</b></label>
+                <input style="margin-right: 30px;" type="password" name="password" id="" required>
+                <label for="confirm password"><b>Confirm Password</b></label>
+                <input type="password" name="confirm password" id="" required>
+               <input type="submit" value="Submit">
+           </form>
+       </div>
+       <footer>
+        <h1 style="color: #fff; margin-left: 50px; padding: 50px;">About<span style="color: #000;">Me</span></h1>
+       </footer>
+    </main>
+</body>
+</html>

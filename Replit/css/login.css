@@ -1,0 +1,95 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: auto;
+    height: 15vh;
+    background-color: #c0c0c0;
+}
+.nav-sec{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav{
+    display: flex;
+}
+.nav-sec nav ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    margin-right: 55px;
+}
+.nav-sec nav ul li{
+    padding: 10px 30px;
+}
+.nav-sec nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+}
+.login{
+    padding: 10px 30px;
+}
+.login a{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;
+    background-color: #000f4d;
+    border-radius: 20px;
+}
+main{
+    padding: 3em;
+}
+.cnt{
+    width: 18%;
+    margin: auto;
+    float: none;
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    background-color: #fff;
+    border-radius: 24px;
+}
+
+.cont1hdr{
+    letter-spacing: 2px;
+    padding: 1em;
+    color: #000f4d;
+    font-size: 1.2em;
+    float: none;
+    display: flex;
+    justify-content: center
+}
+input[type=text] {
+    border: 2px solid #000f4d;
+    border-radius: 24px;
+    background-color: #fff;
+    width: 200px;
+    height: 35px;
+    padding: 8px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+input[type=password] {
+    border: 2px solid #000f4d;
+    border-radius: 24px;
+    background-color: #fff;
+    font-size: 20px;
+    width: 200px;
+    height: 32px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #000f4d;
+    height: 12vh;
+    padding: 35px;
+}
